@@ -1,0 +1,19 @@
+# 构建产物
+tools/memguard/dist/
+
+# 自动生成的图标（由 build.ps1 生成）
+tools/memguard/assets/icon.ico
+
+# 运行期日志与配置
+*.log
+last-run.txt
+config.json
+
+# 编辑器与本地产物
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地计划与系统备份（含主机安全配置，禁止公开）
+.trae/
